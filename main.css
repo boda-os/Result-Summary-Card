@@ -1,0 +1,106 @@
+/* Start General Properties*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #ECF2FF;
+}
+/*End General Properties */
+
+/*Start Decoration Card  */
+.card
+{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: #ECF2FF;
+}
+/*Start Decoration  CArd*/
+
+
+/*Start Decoration Result*/
+.result
+{
+    width: 500px;
+    height: 500px;
+    background:linear-gradient(to bottom , #6743FF,#332DEA);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.yourResult
+{
+    /*width: ;*/
+    /*height: ;*/
+    margin: 25px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #CDC0FF;
+}
+
+.score
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: linear-gradient(to bottom , #4B26CE, rgba(75, 38, 206, 0.27));
+}
+
+.number
+{
+    /*width: ;*/
+    /*height: ;*/
+    font-size: 60px;
+    font-weight: 200;
+    color: #ECF2FF;
+}
+
+of100
+{
+    color: rgba(118, 103, 255, 0.91);
+}
+
+.resultFooter
+{
+    margin: 20px;
+}
+
+.great
+{
+    /*width: ;*/
+    /*height: ;*/
+    font-size: 90px;
+    font-weight: 200;
+    color: #ECF2FF;
+}
+
+.pGreat
+{
+    /*width: ;*/
+    /*height: ;*/
+    font-size: 20px;
+    line-height: 2;
+    color: #B4B1FE;
+}
+/*End Decoration Result*/
+
+
+/*Start Summary Decoration*/
+.summary
+{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ECF2FF;
+}
+/*End Summary Decoration*/
